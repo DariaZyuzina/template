@@ -1,0 +1,197 @@
+.call {
+    background: linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)), url(../img/bg_call.jpeg);
+    background-position: center;
+    background-size: cover;
+    min-height: 621px;
+    color: #fff;
+}
+
+.call__title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 17px;
+}
+
+.call__description {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 50px;
+}
+
+.call__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call__form-set {
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.call__input {
+    background: transparent;
+    width: 423px;
+    height: 44px;
+    border-radius: 50px;
+    border: 1.382px solid #FFF;
+    padding: 0 25px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.call__input:not(:last-child) {
+    margin-bottom: 21px;
+}
+
+.call__input::placeholder {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.call__btn {
+    width: 218px;
+    margin-bottom: 50px;
+}
+
+.call__offer {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.call__offer-link {
+    color: #4A76A8;
+    border-bottom: 1px solid #4A76A8;
+}
+
+/* ------------------ */
+
+@media (max-width: 1024px) {
+    .call {
+        min-height: 558px;
+        padding-bottom: 56px;
+    }
+
+    .call__title {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+
+    .call__description {
+        font-size: 20px;
+    }
+
+    .call__input {
+        width: 377px;
+        height: 39px;
+        padding: 0 23px;
+        font-size: 20px;
+    }
+
+    .call__input::placeholder {
+        font-size: 20px;
+    }
+
+    .call__offer {
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .call {
+        min-height: 535px;
+    }
+
+    .call__title {
+        font-size: 27px;
+        margin-bottom: 13px;
+    }
+
+    .call__description {
+        font-size: 16px;
+    }
+
+    .call__input {
+        width: 350px;
+        height: 34px;
+        padding: 0 20px;
+        font-size: 16px;
+    }
+
+    .call__input:not(:last-child) {
+        margin-bottom: 18px;
+    }
+
+    .call__input::placeholder {
+        font-size: 16px;
+    }
+
+    .call__offer {
+        font-size: 13px;
+    }
+
+    .call__btn {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 350px) {
+    .call {
+        min-height: 398px;
+        padding: 30px 0;
+    }
+
+    .call__title {
+        font-size: 20px;
+        margin-bottom: 11px;
+    }
+
+    .call__description {
+        font-size: 12px;
+        margin-bottom: 35px;
+    }
+
+    .call__form-set {
+        margin-bottom: 45px;
+    }
+
+    .call__input {
+        width: 290px;
+        height: 28px;
+        padding: 0 18px;
+        font-size: 14px;
+    }
+
+    .call__input::placeholder {
+        font-size: 14px;
+    }
+
+    .call__input:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    .call__btn {
+        width: 174px;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .call__offer {
+        font-size: 11px;
+    }
+}

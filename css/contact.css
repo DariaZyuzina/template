@@ -1,0 +1,89 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__link {
+    font-size: 23.85px;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    transition-duration: 0.2s;
+}
+
+.contact__btn {
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+    max-width: 131.984px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    transition-duration: 0.2s;
+}
+
+.contact__link:hover, 
+.contact__btn:hover {
+    color: rgba(255, 255, 255, 0.50);
+    
+}
+
+.contact__link:focus, 
+.contact__btn:focus {
+    color: rgba(255, 255, 255, 0.50);
+    
+}
+
+.contact__link:active, 
+.contact__btn:active {
+    color: #15A9CB;
+}
+
+.contact__link-icon {
+    width: 45px;
+    color: #555A7B;
+    transition-duration: 0.2s;
+}
+
+.contact__link-icon:hover,
+.contact__link-icon:focus {
+    color: #15A9CB;
+}
+
+.contact__link-icon:active {
+    color: #36394f;
+}
+
+/* ------------- */
+
+@media (max-width: 1024px) {
+    .contact__link {
+        font-size: 21px;
+    }
+
+    .contact__btn {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact__link,
+    .contact__btn {
+        display: none;
+    }
+}
+
+@media (max-width: 350px) {
+    .contact__link-icon {
+        width: 24px;
+    }
+}
+
+@media (min-width: 769px) {
+    .contact__link-icon {
+        display: none;
+    }
+}

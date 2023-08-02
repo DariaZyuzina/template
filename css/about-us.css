@@ -1,0 +1,163 @@
+.about-us__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us__title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.about-us__subtitle {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 35px;
+}
+
+.about-us__subtitle span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 43px;
+    height: 2px;
+    background-color: #383A4C;
+    margin: 0px 23px;
+}
+
+.about-us__description {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140.625%;
+    max-width: 724px;
+    margin-bottom: 50px;
+}
+
+.about-us__list {
+    display: flex;
+    counter-reset: myCounter;
+    gap: 40px 50px;
+}
+
+.about-us__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #383A4C;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140.625%;
+    width: 183px
+}
+
+.about-us__item:before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    color: white;
+    background: #23C7EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 57px;
+    margin-bottom: 16px;
+    line-height: 40px;
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+}
+
+/* ------------------ */
+
+@media (max-width: 1024px) {
+    .about-us__title {
+        font-size: 32px;
+        margin-bottom: 23px;
+    }
+
+    .about-us__subtitle {
+        font-size: 20px;
+        margin-bottom: 33px;
+    }
+
+    .about-us__subtitle span {
+        width: 40px;
+        margin: 0px 20px;
+    }
+
+    .about-us__description {
+        font-size: 16px;
+        max-width: 666px;
+    }
+
+    .about-us__list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 1000px) {
+    .about-us__list {
+        column-gap: 30px;
+    }
+}
+
+@media (max-width: 890px) {
+    .about-us__item {
+        flex: 0 0 47%;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-us__title {
+        font-size: 27px;
+        margin-bottom: 18px;
+    }
+
+    .about-us__item {
+        flex: 0 0 33%;
+    }
+
+    .about-us__description {
+        font-size: 16px;
+        max-width: 666px;
+    }
+}
+
+@media (max-width: 618px) {
+    .about-us__item {
+        flex: 0 0 50%;
+    }
+}
+
+@media (max-width: 350px) {
+    .about-us {
+        padding: 30px 0 60px;
+    }
+
+    .about-us__title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .about-us__subtitle {
+        font-size: 16px;
+        margin-bottom: 26px;
+    }
+
+    .about-us__subtitle span {
+        width: 19.7px;
+        margin: 0px 20px;
+    }
+
+    .about-us__description {
+        font-size: 12px;
+        max-width: 666px;
+    }
+}
