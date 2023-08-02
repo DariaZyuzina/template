@@ -25,7 +25,7 @@
     vertical-align: middle;
     width: 43px;
     height: 2px;
-    background-color: #383A4C;
+    background-color: var(--color-primary-dark,  #383A4C);
     margin: 0px 23px;
 }
 
@@ -60,7 +60,7 @@
     counter-increment: myCounter;
     content: counter(myCounter);
     color: white;
-    background: #23C7EC;
+    background: var(--color-primary, #23C7EC);
     display: flex;
     justify-content: center;
     align-items: center;

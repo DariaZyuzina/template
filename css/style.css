@@ -11,7 +11,7 @@ html {
 body {
     min-width: 320px;
     min-height: 100vh;
-    background-color: #F9F9F9;
+    background-color: var(--color-primery-lightest, #F9F9F9);
     ;
     color: #383A4C;
     font-family: 'Roboto', sans-serif;
@@ -160,4 +160,3 @@ input::-webkit-input-placeholder {
         width: 49px;
     }
 }
-

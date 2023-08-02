@@ -1,5 +1,5 @@
 .footer {
-    background-color: #2F324B;
+    background-color: var(--color-primary-darker, #2F324B);
     color: #FFF;
     font-size: 12px;
     font-weight: 500;
@@ -49,7 +49,7 @@
         line-height: 140.625%;
         width: 100%;
         text-align: center;
-        background-color: #2A2C3F;
+        background-color: var(--color-primary-darkest, #2A2C3F);
         padding: 15px 0;
     }
 }
