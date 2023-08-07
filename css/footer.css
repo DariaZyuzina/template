@@ -10,12 +10,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 158px;
+    height: 161px;
 }
 
 .footer__block {
     display: flex;
     align-items: center;
+}
+
+.footer__description {
+    padding-right: 4px;
 }
 
 /* ----------- */

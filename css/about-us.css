@@ -9,7 +9,7 @@
     font-size: 35px;
     font-weight: 700;
     line-height: 1.1;
-    margin-bottom: 25px;
+    margin-bottom: 28px;
 }
 
 .about-us__subtitle {
@@ -35,7 +35,7 @@
     font-weight: 400;
     line-height: 140.625%;
     max-width: 724px;
-    margin-bottom: 50px;
+    margin-bottom: 59px;
 }
 
 .about-us__list {
@@ -53,7 +53,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 140.625%;
-    width: 183px
+    width: 196px
 }
 
 .about-us__item:before {

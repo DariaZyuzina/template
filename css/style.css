@@ -81,7 +81,7 @@ input::-webkit-input-placeholder {
 .header__container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
 }
 
 .logo {
