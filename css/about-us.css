@@ -25,7 +25,7 @@
     vertical-align: middle;
     width: 43px;
     height: 2px;
-    background-color: var(--color-primary-dark,  #383A4C);
+    background-color: var(--color-primary-dark, #383A4C);
     margin: 0px 23px;
 }
 
@@ -67,7 +67,7 @@
     text-align: center;
     font-size: 57px;
     margin-bottom: 16px;
-    line-height: 40px;
+    line-height: 1.2;
     width: 122px;
     height: 122px;
     border-radius: 50%;
@@ -79,6 +79,7 @@
     .about-us__title {
         font-size: 32px;
         margin-bottom: 23px;
+        line-height: 1.2;
     }
 
     .about-us__subtitle {
@@ -99,6 +100,17 @@
     .about-us__list {
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+
+    .about-us__item {
+        width: 180px;
+        font-size: 18px;
+    }
+
+    .about-us__item:before {
+        margin-bottom: 26px;
+        width: 104px;
+        height: 104px
     }
 }
 
@@ -138,26 +150,39 @@
 
 @media (max-width: 350px) {
     .about-us {
-        padding: 30px 0 60px;
+        padding: 30px 0 62px;
     }
 
     .about-us__title {
         font-size: 20px;
-        margin-bottom: 15px;
+        margin-bottom: 17px;
     }
 
     .about-us__subtitle {
         font-size: 16px;
-        margin-bottom: 26px;
+        margin-bottom: 29px;
     }
 
     .about-us__subtitle span {
         width: 19.7px;
-        margin: 0px 20px;
+        margin: 0px 27px;
     }
 
     .about-us__description {
         font-size: 12px;
         max-width: 666px;
+        margin-bottom: 43px;
+    }
+
+    .about-us__list {
+        row-gap: 41px;
+    }
+
+    .about-us__item {
+        flex: 0 0 180px;
+    }
+
+    .about-us__item:before {
+        font-size: 52px;
     }
 }

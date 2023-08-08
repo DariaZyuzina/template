@@ -121,11 +121,12 @@ input::-webkit-input-placeholder {
 
     .header__container {
         margin-bottom: 0;
+        height: 60px;
     }
 
     .logo {
-        width: 81px;
-        padding-right: 21px;
+        width: 79px;
+        padding-right: 19px;
     }
 
 }
@@ -154,6 +155,9 @@ input::-webkit-input-placeholder {
     .header {
         padding-top: 15px;
         min-height: 441px;
+    }
+    .header__container {
+        height: 30px;
     }
 
     .logo {

@@ -26,12 +26,13 @@
 
 @media (max-width: 1024px) {
     .footer__container {
-        height: 144px;
+        height: 140px;
     }
 
     .footer__description {
         color: rgba(255, 255, 255, 0.50);
         font-size: 12px;
+        padding-right: 19px;
     }
 }
 
@@ -59,8 +60,20 @@
 }
 
 @media (max-width: 350px) {
+    .footer__container {
+        justify-content: space-between;
+    }
+
+    .footer__block {
+        padding-left: 15px;
+    }
+
     .copy__text {
         font-size: 8px;
         line-height: 140.625%;
+    }
+
+    .footer__contact {
+        padding-right: 15px;
     }
 }
